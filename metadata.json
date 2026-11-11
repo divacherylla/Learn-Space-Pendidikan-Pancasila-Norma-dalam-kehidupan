@@ -1,0 +1,6 @@
+{
+  "name": "LearnSpace",
+  "description": "Media pembelajaran digital LEARN SPACE Pendidikan Pancasila: Norma dalam Kehidupanku untuk siswa SD Kelas V berbasis media interaktif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

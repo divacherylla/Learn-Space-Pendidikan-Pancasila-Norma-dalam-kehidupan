@@ -1,0 +1,1080 @@
+# MASTER PROMPT PENGEMBANGAN LMS LEARNSPACE
+
+## 1. Peran dan Tujuan
+
+Bertindaklah sebagai Senior Product Designer, Learning Experience Designer (LXD), UI/UX Designer, dan Full Stack Developer.
+
+Kembangkan platform pembelajaran digital berbasis web bernama **LearnSpace** untuk mendukung pembelajaran Pendidikan Pancasila kelas V SD.
+
+Platform menggunakan pendekatan Learning Experience Design (LXD), dengan memperhatikan kebutuhan siswa, guru, tujuan pembelajaran, pengalaman belajar, dan kemudahan penggunaan.
+
+Jangan hanya membuat dashboard atau kumpulan halaman CRUD. Pastikan setiap fitur memiliki fungsi yang jelas dan mendukung proses pembelajaran.
+
+## 2. Identitas dan Ruang Lingkup Produk
+
+- Nama produk: LearnSpace.
+- Jenis produk: Web Based Learning Management System.
+- Mata pelajaran: Pendidikan Pancasila.
+- Jenjang: Sekolah Dasar.
+- Kelas: V.
+- Materi utama: Bab 2, Norma dalam Kehidupanku.
+
+Batasi materi pembelajaran hanya pada Bab 2. Jangan menambahkan bab lain atau materi yang tidak berkaitan.
+
+Gunakan dokumen buku panduan guru Pendidikan Pancasila kelas V yang telah disediakan sebagai acuan. Jangan mengubah substansi materi tanpa dasar dari sumber tersebut.
+
+### Target Pengguna
+
+1. Siswa: Mengakses materi, mengikuti aktivitas, mengerjakan latihan, menggunakan chatbot, membaca rangkuman, mengikuti asesmen, dan melihat progres.
+2. Guru: Mengelola materi, modul, aktivitas, H5P, asesmen, dan perkembangan siswa.
+3. Admin: Mengelola pengguna dan konfigurasi sistem.
+
+## 3. Tujuan Pembelajaran
+
+Platform harus mendukung siswa agar mampu:
+
+1. Mengidentifikasi berbagai bentuk norma.
+2. Mengidentifikasi hak dan kewajiban sebagai anggota keluarga dan warga sekolah.
+3. Memberikan contoh penerapan norma, hak, dan kewajiban.
+4. Menyajikan hasil identifikasi norma, hak, dan kewajiban.
+5. Mempraktikkan norma, hak, dan kewajiban di lingkungan keluarga dan sekolah.
+6. Mempraktikkan musyawarah dalam lingkungan keluarga dan sekolah.
+
+## 4. Struktur Materi Pembelajaran
+
+Susun pembelajaran berdasarkan empat aktivitas utama.
+
+### Misi 1: Mengenal Macam Macam Norma
+
+Materi:
+- Pengertian dan pentingnya norma.
+- Norma agama.
+- Norma kesusilaan.
+- Norma kesopanan.
+- Norma hukum.
+- Contoh penerapan norma di rumah dan sekolah.
+- Hak dan kewajiban dalam kehidupan sehari-hari.
+
+Aktivitas:
+- Mengamati ilustrasi.
+- Mengidentifikasi jenis norma.
+- Mencocokkan contoh perilaku dengan jenis norma.
+- Mengerjakan kuis pemahaman.
+
+Alternatif H5P:
+- Interactive Video.
+- Image Hotspot.
+- Matching.
+- Multiple Choice.
+
+### Misi 2: Pohon Normaku
+
+Fokus:
+- Menyajikan hasil identifikasi norma.
+- Mengidentifikasi hak dan kewajiban.
+- Mengelompokkan contoh penerapan norma berdasarkan lingkungan.
+
+Aktivitas:
+- Mengamati contoh perilaku.
+- Mengelompokkan kartu atau daun ke kategori rumah, sekolah, dan lingkungan.
+- Menyusun pohon norma digital.
+- Mendapatkan umpan balik.
+
+Alternatif H5P:
+- Drag and Drop.
+- Drag the Words.
+- Classification.
+
+### Misi 3: Praktik Norma di Lingkunganku
+
+Fokus:
+- Penerapan norma dalam kehidupan sehari-hari.
+- Penerapan hak dan kewajiban.
+- Perilaku sesuai norma di lingkungan keluarga dan sekolah.
+
+Aktivitas:
+- Membaca atau mengamati kasus.
+- Menentukan tindakan yang tepat.
+- Melihat konsekuensi pilihan.
+- Mendapatkan penjelasan.
+
+Gunakan pendekatan scenario based learning dengan situasi yang dekat dengan kehidupan siswa.
+
+### Misi 4: Ayo Bermusyawarah
+
+Fokus:
+- Pengertian dan pentingnya musyawarah.
+- Musyawarah dalam keluarga dan sekolah.
+- Menghargai pendapat orang lain.
+- Mengambil keputusan bersama.
+
+Aktivitas:
+- Mengamati ilustrasi musyawarah.
+- Memilih tindakan.
+- Menentukan cara menyampaikan pendapat.
+- Mengurutkan tahapan musyawarah.
+
+Tahapan:
+1. Mendengarkan pendapat.
+2. Menyampaikan pendapat.
+3. Mempertimbangkan pilihan.
+4. Menentukan keputusan bersama.
+5. Menyepakati hasil musyawarah.
+
+## 5. Pendekatan Learning Experience Design
+
+Terapkan prinsip:
+- Learner centered.
+- Goal oriented.
+- Meaningful learning.
+- Active learning.
+- Feedback oriented.
+- Reflection.
+- Cognitive load management.
+- Accessibility.
+
+Gunakan alur:
+
+Welcome → Get Ready → Apersepsi → Pre Assessment → Explore → Learn → Practice → Apply → Assess → Reflect.
+
+Mulai materi dari contoh situasi nyata sebelum menjelaskan konsep.
+
+Gunakan konteks kehidupan keluarga, lingkungan sekolah, interaksi dengan teman, peraturan kelas, menghargai orang lain, menjalankan kewajiban, menghormati hak, kerja sama, dan musyawarah.
+
+## 6. Enam Fitur Pembelajaran
+
+Tampilkan enam fitur utama pada Beranda LearnSpace.
+
+### A. Tutorial
+
+Fungsi: Menyediakan materi pembelajaran yang terstruktur.
+
+Konten:
+- Pengantar materi.
+- Tujuan pembelajaran.
+- Apersepsi.
+- Penjelasan materi.
+- Contoh penerapan.
+- Aktivitas interaktif.
+- Mini quiz.
+- Indikator progres.
+- Navigasi sebelumnya dan berikutnya.
+- Fitur melanjutkan materi.
+
+Gunakan konten H5P dari Lumi jika tersedia. Jika belum tersedia, gunakan konten native dengan fungsi pembelajaran setara.
+
+### B. Practical
+
+Fungsi: Memberikan kesempatan kepada siswa untuk menerapkan pengetahuan melalui situasi nyata.
+
+Komponen:
+- Deskripsi situasi.
+- Ilustrasi kasus.
+- Instruksi.
+- Pilihan tindakan.
+- Umpan balik.
+- Penjelasan konsekuensi.
+- Refleksi atau jawaban singkat.
+
+Gunakan kasus dari lingkungan rumah, sekolah, pertemanan, dan musyawarah.
+
+### C. Drill & Game
+
+**Drill**
+
+Sediakan latihan:
+- Pilihan ganda.
+- Benar atau salah.
+- Menjodohkan.
+- Drag and drop.
+- Melengkapi kalimat.
+- Pertanyaan berbasis gambar.
+- Kuis singkat.
+
+Ketentuan:
+- Tingkat kesulitan bertahap.
+- Urutan soal dapat diacak.
+- Umpan balik langsung.
+- Siswa dapat mengulang latihan.
+- Hasil latihan tersimpan.
+- Sistem memberikan saran untuk mempelajari kembali materi.
+
+**Game: Misi Penjelajah Norma**
+
+Buat lima level:
+
+1. Detektif Norma: Mengidentifikasi macam norma.
+2. Pasangkan dengan Tepat: Mencocokkan contoh perilaku dengan jenis norma.
+3. Penjaga Hak dan Kewajiban: Mengelompokkan hak dan kewajiban.
+4. Pilih Tindakanmu: Menentukan tindakan berdasarkan situasi.
+5. Tantangan Musyawarah: Menentukan keputusan dalam situasi musyawarah.
+
+Elemen permainan:
+- Poin.
+- Bintang.
+- Badge.
+- Level.
+- Progres.
+- Riwayat penyelesaian.
+- Umpan balik.
+- Tampilan penyelesaian level.
+
+Fokuskan pencapaian pada perkembangan individu. Hindari leaderboard publik yang dapat mempermalukan siswa.
+
+### D. Chatbot: Teman Belajar LearnSpace
+
+Fungsi: Membantu siswa memahami materi Bab 2 melalui percakapan.
+
+Karakteristik:
+- Bahasa Indonesia sederhana.
+- Ramah dan mudah dipahami siswa kelas V.
+- Menjelaskan materi berdasarkan sumber yang tersedia.
+- Memberikan contoh.
+- Memberikan petunjuk sebelum jawaban.
+- Mengarahkan siswa untuk berpikir.
+- Memberikan latihan dan umpan balik.
+
+Contoh pertanyaan:
+- Apa itu norma?
+- Apa perbedaan empat macam norma?
+- Apa contoh norma di rumah?
+- Apa perbedaan hak dan kewajiban?
+- Mengapa kita perlu bermusyawarah?
+- Bantu aku memahami materi!
+
+Ketentuan:
+1. Jawaban berdasarkan sumber materi Bab 2 yang disetujui.
+2. Jangan memberikan informasi di luar materi.
+3. Jika informasi tidak tersedia, arahkan siswa bertanya kepada guru.
+4. Jangan meminta informasi pribadi siswa.
+5. Jangan menggantikan peran guru.
+6. Jangan menampilkan percakapan kepada pengguna lain.
+
+Gunakan integrasi AI melalui backend. Jangan menyimpan API key di frontend. Jika layanan AI belum tersedia, sediakan mode FAQ dengan label yang jelas.
+
+### E. Rangkuman Materi
+
+Buat rangkuman berdasarkan bagian:
+1. Pentingnya Norma.
+2. Macam Macam Norma.
+3. Hak dan Kewajiban.
+4. Penerapan Norma.
+5. Musyawarah.
+
+Komponen:
+- Kartu rangkuman.
+- Penjelasan singkat.
+- Contoh perilaku.
+- Ilustrasi.
+- Peta konsep.
+- Poin penting.
+- Mini quiz.
+- Navigasi materi.
+
+Guru dapat mengelola, mengedit, melihat pratinjau, dan memublikasikan rangkuman.
+
+### F. Assessment
+
+Sediakan:
+- Pre Assessment.
+- Formative Assessment.
+- Final Assessment.
+
+Gunakan variasi soal:
+- Pilihan ganda.
+- Benar atau salah.
+- Menjodohkan.
+- Drag and drop.
+- Studi kasus.
+- Pertanyaan berbasis situasi.
+
+Tampilkan hasil, skor sesuai jenis asesmen, umpan balik, materi yang perlu dipelajari kembali, dan riwayat pengerjaan.
+
+## 7. Visual Gambar untuk Empat Macam Norma
+
+Tambahkan section visual khusus pada materi **Macam Macam Norma**.
+
+Tujuannya agar siswa kelas V dapat membedakan empat macam norma melalui ilustrasi situasi kehidupan sehari-hari.
+
+Gunakan empat kartu visual yang memiliki ukuran, tata letak, dan gaya ilustrasi konsisten.
+
+### Kartu 1: Norma Agama
+
+Visual: Ilustrasi anak sedang melaksanakan ibadah sesuai keyakinannya.
+
+Contoh:
+- Beribadah sesuai agama dan kepercayaan.
+- Berdoa.
+- Menghormati orang yang sedang beribadah.
+
+### Kartu 2: Norma Kesusilaan
+
+Visual: Ilustrasi anak mengembalikan barang yang ditemukan kepada pemiliknya atau berkata jujur kepada guru.
+
+Contoh:
+- Berkata jujur.
+- Mengakui kesalahan.
+- Membantu orang lain.
+
+### Kartu 3: Norma Kesopanan
+
+Visual: Ilustrasi anak menyapa guru dengan sopan atau mengantre dengan tertib.
+
+Contoh:
+- Mengucapkan salam.
+- Berbicara dengan sopan.
+- Menghormati orang yang lebih tua.
+
+### Kartu 4: Norma Hukum
+
+Visual: Ilustrasi anak menyeberang melalui zebra cross dan mematuhi rambu lalu lintas.
+
+Contoh:
+- Mematuhi rambu lalu lintas.
+- Memakai helm saat berkendara bersama orang dewasa.
+- Mematuhi peraturan yang berlaku.
+
+### Ketentuan Desain Visual
+
+- Gunakan ilustrasi yang sesuai dengan karakteristik siswa kelas V SD.
+- Gunakan gaya ilustrasi yang seragam pada keempat kartu.
+- Pilih gambar yang jelas dan mudah dikenali.
+- Gunakan warna yang sesuai dengan identitas visual LearnSpace.
+- Hindari gambar yang terlalu ramai atau memiliki banyak objek tidak relevan.
+- Sertakan judul jenis norma dan keterangan singkat di setiap kartu.
+- Tambahkan contoh perilaku yang konkret.
+- Gunakan alt text untuk setiap gambar.
+- Pastikan informasi tetap dapat dipahami tanpa melihat gambar.
+- Jangan menggunakan gambar yang hanya bersifat dekoratif dan tidak menjelaskan materi.
+
+Tambahkan interaksi sederhana. Ketika siswa memilih salah satu kartu, tampilkan penjelasan dan contoh perilaku yang lebih lengkap.
+
+Pastikan contoh visual sesuai dengan materi pada buku panduan guru yang menjadi sumber utama.
+
+## 8. Halaman Beranda dan Panduan Pengguna
+
+Urutan halaman Beranda:
+
+1. Welcome atau Hero Section.
+2. Cara Menggunakan LearnSpace.
+3. Kursus Utama.
+4. Enam Fitur Pembelajaran.
+5. Learning Path.
+6. Progress Belajar.
+
+Sapaan:
+
+"Halo, Teman Belajar! Selamat datang di LearnSpace. Yuk, kenali cara menggunakan ruang belajar digital ini!"
+
+Tombol:
+- Lihat Panduan.
+- Mulai Belajar.
+
+Panduan siswa:
+1. Mulai belajar.
+2. Pelajari Tutorial.
+3. Kerjakan Practical.
+4. Latih pemahaman melalui Drill & Game.
+5. Gunakan Teman Belajar dan Rangkuman.
+
+Sediakan onboarding dengan tombol Selanjutnya, Sebelumnya, Lewati, dan Selesai. Simpan status onboarding agar tidak muncul setiap login.
+
+### Panduan Guru
+
+Jelaskan cara:
+- Membuat kursus.
+- Mengatur tujuan pembelajaran.
+- Membuat modul.
+- Menambahkan aktivitas.
+- Mengunggah H5P dari Lumi.
+- Melihat pratinjau.
+- Memublikasikan materi.
+- Memantau siswa.
+
+## 9. Alur UI/UX
+
+Rancang alur UI/UX yang logis, konsisten, dan mudah dipahami siswa kelas V SD.
+
+Jangan membuat pengguna harus menebak fungsi tombol atau mencari terlalu lama untuk menemukan fitur.
+
+### Alur Siswa
+
+Login → Beranda → Panduan → Belajarku → Pilih Materi → Tutorial → Practical → Drill & Game → Rangkuman → Assessment → Hasil dan Refleksi → Pencapaianku.
+
+Ketentuan:
+- Tampilkan posisi siswa dalam proses belajar.
+- Setiap halaman memiliki judul dan deskripsi singkat.
+- Tampilkan petunjuk tindakan berikutnya.
+- Tombol utama terlihat jelas.
+- Tombol kembali mudah ditemukan.
+- Sediakan fitur lanjutkan belajar.
+- Simpan progres.
+- Jangan mewajibkan siswa menyelesaikan semua aktivitas dalam satu sesi.
+
+### Alur Guru
+
+Login → Dashboard → Kursus Saya → Pilih Kursus → Kelola Modul → Tambahkan Aktivitas → Upload H5P → Preview → Publish → Monitoring Siswa.
+
+Pisahkan menu pengelolaan materi dan monitoring.
+
+### Hierarki Informasi
+
+Setiap halaman menggunakan susunan:
+1. Judul halaman.
+2. Deskripsi atau tujuan.
+3. Konten utama.
+4. Instruksi aktivitas.
+5. Tombol tindakan utama.
+6. Navigasi atau informasi tambahan.
+
+### Navigasi
+
+- Gunakan menu utama yang mudah dikenali.
+- Gunakan ikon yang relevan dan sertakan label teks.
+- Tandai menu yang sedang aktif.
+- Gunakan tombol kembali dan lanjutkan secara konsisten.
+- Hindari menu berlebihan.
+- Berikan konfirmasi untuk tindakan penting.
+
+## 10. Pengosongan Data Siswa pada Halaman Guru
+
+Perbarui halaman Dashboard Guru dan bagian Manajemen Siswa.
+
+**Kebutuhan tampilan:**
+- Kosongkan data siswa contoh atau dummy yang saat ini muncul pada halaman guru.
+- Jangan tampilkan nama, foto profil, nilai, progres, atau aktivitas siswa fiktif.
+- Tampilkan daftar siswa dalam keadaan kosong apabila belum ada siswa yang terdaftar atau bergabung ke kursus.
+- Jangan membuat data siswa otomatis hanya untuk mengisi tampilan dashboard.
+
+**Empty State:**
+
+Jika belum ada siswa, tampilkan pesan:
+
+"Belum ada siswa yang terdaftar pada kursus ini."
+
+Tambahkan ilustrasi sederhana dan petunjuk:
+
+"Data siswa akan muncul setelah siswa bergabung ke kursus."
+
+Sediakan tombol yang relevan, misalnya:
+- Kelola Pendaftaran.
+- Salin Kode Kursus, jika fitur kode kursus tersedia.
+
+**Ketentuan database:**
+- Periksa apakah data yang ada merupakan data dummy, data pengujian, atau data pengguna sebenarnya.
+- Bersihkan data siswa dummy atau data pengujian yang memang tidak diperlukan.
+- Jangan menghapus data siswa nyata, akun, riwayat belajar, atau nilai produksi tanpa instruksi dan konfirmasi khusus.
+- Jangan menghapus struktur tabel, relasi, atau konfigurasi database.
+- Pertahankan integritas foreign key dan relasi antartabel.
+- Jangan mengubah data guru atau admin.
+- Pastikan data siswa baru dapat muncul secara otomatis setelah terdaftar atau bergabung ke kursus.
+- Terapkan hak akses sehingga guru hanya dapat melihat siswa yang terdaftar pada kursus yang dikelolanya.
+
+**Dashboard tidak boleh menggunakan data dummy sebagai pengganti data nyata.** Jika data belum tersedia, tampilkan empty state, bukan angka atau nama buatan.
+
+## 11. Penghilangan Simbol Hubung sebagai Pemisah Teks
+
+Periksa seluruh teks yang ditampilkan pada LearnSpace.
+
+Jangan menggunakan simbol tanda hubung atau dash sebagai pemisah antara dua judul, frasa, keterangan, atau bagian teks.
+
+Contoh perubahan:
+
+- "Bab 2 - Norma dalam Kehidupanku" menjadi "Bab 2: Norma dalam Kehidupanku".
+- "Tutorial - Materi Pembelajaran" menjadi "Tutorial: Materi Pembelajaran".
+- "Progress - Belajarku" menjadi "Progress Belajarku".
+- "Drill & Game - Misi Penjelajah Norma" menjadi "Drill & Game: Misi Penjelajah Norma".
+
+Gunakan titik dua, tanda kurung, spasi, atau tanda baca yang sesuai.
+
+Ketentuan:
+- Hindari penggunaan tanda hubung sebagai penghubung antarketerangan.
+- Jangan gunakan dash dekoratif pada judul, subjudul, kartu, navigasi, dan deskripsi.
+- Periksa konsistensi seluruh teks, termasuk notifikasi dan tombol.
+- Jangan menghapus tanda hubung yang memang diperlukan dalam ejaan baku, kata ulang, nama file, kode program, atau sintaks teknis.
+
+## 12. Animasi Bergerak dan Interaksi Visual
+
+Gunakan animasi untuk membantu siswa memahami interaksi dan progres pembelajaran.
+
+Penerapan:
+- Welcome: animasi ilustrasi sederhana.
+- Kartu fitur: hover effect dan transisi ringan.
+- Learning Path: progres bergerak.
+- Tutorial: transisi antarbagian dan highlight.
+- Practical: animasi pilihan tindakan.
+- Drill & Game: animasi jawaban, poin, bintang, dan level.
+- Chatbot: typing indicator.
+- Rangkuman: animasi kartu dan peta konsep.
+- Assessment: transisi soal dan indikator progres.
+
+Ketentuan:
+- Animasi pendek dan halus.
+- Hindari gerakan berlebihan dan berkedip cepat.
+- Jangan menghambat aktivitas belajar.
+- Gunakan transisi konsisten.
+- Hormati `prefers-reduced-motion`.
+- Sediakan alternatif visual statis.
+
+Contoh durasi:
+- Hover: 150 sampai 200 ms.
+- Transisi komponen: 200 sampai 300 ms.
+- Perpindahan panel: 250 sampai 350 ms.
+- Animasi pencapaian: 400 sampai 700 ms.
+
+## 13. Sound Effect dan Audio
+
+Gunakan sound effect sebagai pendukung interaksi.
+
+Penerapan:
+- Bunyi klik ringan pada tombol.
+- Suara positif untuk jawaban benar.
+- Suara lembut untuk jawaban salah.
+- Sound effect penyelesaian aktivitas.
+- Sound effect pencapaian badge.
+- Audio transisi level game.
+
+Ketentuan:
+- Audio sederhana dan nyaman didengar.
+- Hindari suara terlalu keras atau mengejutkan.
+- Jangan memutar audio berulang tanpa kebutuhan.
+- Jangan menjalankan audio otomatis dengan suara tanpa tindakan pengguna.
+- Sediakan kontrol Sound On atau Off.
+- Sediakan pengaturan volume jika diperlukan.
+- Pisahkan kontrol musik latar dan sound effect.
+- Simpan preferensi audio jika memungkinkan.
+- Siswa tetap dapat belajar tanpa suara.
+- Sediakan caption atau transkrip untuk audio pembelajaran yang berisi informasi penting.
+
+Kegagalan audio tidak boleh menghentikan fungsi pembelajaran.
+
+## 14. Navigasi Berdasarkan Peran
+
+### Siswa
+- Beranda.
+- Belajarku.
+- Pencapaianku.
+- Notifikasi.
+- Profil.
+- Panduan.
+
+### Guru
+- Dashboard.
+- Kursus Saya.
+- Modul dan Aktivitas.
+- H5P Management.
+- Siswa.
+- Penilaian.
+- Perkembangan.
+- Profil.
+
+### Admin
+- Dashboard.
+- Manajemen Pengguna.
+- Manajemen Guru dan Siswa.
+- Manajemen Kursus.
+- Pengaturan Sistem.
+- Profil.
+
+Tampilkan menu sesuai peran pengguna.
+
+## 15. Dashboard dan Pengelolaan Guru
+
+Guru harus dapat:
+- Membuat, mengedit, menghapus, dan mengurutkan modul.
+- Mengatur tujuan pembelajaran.
+- Membuat aktivitas.
+- Mengelola soal.
+- Mengelola level permainan.
+- Mengelola rangkuman.
+- Mengelola sumber pengetahuan chatbot.
+- Mengunggah H5P.
+- Melihat pratinjau.
+- Memublikasikan materi.
+
+Dashboard dapat menampilkan:
+- Jumlah siswa berdasarkan data nyata.
+- Jumlah aktivitas.
+- Progres pembelajaran.
+- Tingkat penyelesaian kursus.
+- Rata-rata nilai jika tersedia.
+- Siswa yang belum menyelesaikan aktivitas.
+- Aktivitas yang membutuhkan perhatian.
+
+Jika belum ada siswa, jumlah siswa ditampilkan sebagai 0 dan tampilkan empty state yang sesuai.
+
+Jangan mengisi statistik menggunakan data buatan.
+
+## 16. Integrasi H5P dengan Lumi
+
+Alur:
+1. Guru membuat konten di Lumi.
+2. Guru mengekspor file `.h5p`.
+3. Guru membuka H5P Management.
+4. Guru mengunggah file.
+5. Sistem memvalidasi paket.
+6. Sistem menyimpan konten dan metadata.
+7. Guru melihat pratinjau.
+8. Guru memasukkan konten ke modul.
+9. Siswa membuka dan mengerjakan konten H5P.
+
+Ketentuan:
+- Validasi jenis dan ukuran file.
+- Periksa integritas paket.
+- Dukungan metadata dan dependency library.
+- Penyimpanan aman.
+- Gunakan H5P player atau runtime yang benar-benar berfungsi.
+- Pastikan tampilan responsif.
+
+Jangan hanya menampilkan file sebagai lampiran. Konten harus dapat dijalankan secara interaktif.
+
+Jika runtime belum tersedia, jelaskan keterbatasan dan jangan mengklaim player sudah berfungsi.
+
+## 17. Desain Visual dan Identitas LearnSpace
+
+Gunakan pendekatan:
+
+**Fun Educational, Modern, Warm, dan Clean.**
+
+Desain cerah, ramah anak, dan mudah digunakan tanpa terlihat terlalu kekanak-kanakan atau penuh dekorasi.
+
+### Palet Warna Ceria Nusantara
+
+| Warna | Kode | Penggunaan |
+|---|---|---|
+| Yellow | #FFD43B | Warna utama dan CTA |
+| Green | #6BCB77 | Status berhasil |
+| Coral | #FF6B6B | Perhatian dan tantangan |
+| Sky Blue | #4D96FF | Navigasi dan informasi |
+| Purple | #A66CFF | Badge dan chatbot |
+| Cream | #FFF9E6 | Latar belakang |
+| White | #FFFFFF | Kartu dan panel |
+| Dark Text | #263238 | Teks utama |
+| Secondary Gray | #68737D | Teks pendukung |
+
+Gunakan cream dan putih sebagai warna dasar. Gunakan warna cerah sebagai aksen. Pastikan kontras warna memadai.
+
+## 18. Konsistensi Font dan Tipografi
+
+Gunakan **Nunito Sans** sebagai satu satunya font utama di seluruh LearnSpace.
+
+### Ukuran Desktop
+
+| Elemen | Ukuran |
+|---|---:|
+| H1 | 36px |
+| H2 | 28px |
+| H3 | 22px |
+| H4 | 20px |
+| Body | 18px |
+| Deskripsi | 16 sampai 18px |
+| Navigasi | 16px |
+| Tombol | 16 sampai 17px |
+| Label formulir | 15 sampai 16px |
+| Caption | 14px |
+
+### Ukuran Mobile
+
+| Elemen | Ukuran |
+|---|---:|
+| H1 | 28 sampai 30px |
+| H2 | 24px |
+| H3 | 20px |
+| H4 | 18px |
+| Body | 16px |
+| Deskripsi | 16px |
+| Navigasi | 15 sampai 16px |
+| Tombol | 16px |
+| Caption | Minimal 14px |
+
+### Ketebalan dan Spasi
+
+- Heading: 700.
+- Subheading: 600 sampai 700.
+- Body: 400.
+- Navigasi: 600.
+- Tombol: 700.
+- Caption: 400 sampai 500.
+- Line height heading: 1.2 sampai 1.3.
+- Line height body: 1.6 sampai 1.7.
+- Line height caption: 1.5.
+
+Gunakan sistem tipografi terpusat melalui CSS variables atau konfigurasi theme Tailwind.
+
+Jangan menggunakan ukuran teks bermakna di bawah 14px. Jangan mengecilkan font hanya untuk memuat lebih banyak konten.
+
+## 19. Konsistensi Komponen
+
+Buat reusable component `FeatureCard` untuk enam fitur.
+
+Ketentuan:
+- Minimum tinggi desktop: 190 sampai 210px.
+- Padding: 24px.
+- Border radius: 16 sampai 20px.
+- Ikon: 36 sampai 44px.
+- Judul: 22px.
+- Deskripsi: 16 sampai 18px.
+- Tombol: 16 sampai 17px.
+
+Semua kartu memiliki tinggi, posisi ikon, judul, deskripsi, dan tombol yang konsisten.
+
+Grid:
+- Desktop: 3 kolom.
+- Tablet: 2 kolom.
+- Mobile: 1 atau 2 kolom sesuai lebar layar.
+
+Semua halaman detail memiliki pola header, judul, deskripsi, area konten, indikator progres, dan navigasi yang konsisten.
+
+## 20. Ketentuan Bahasa dan Penulisan
+
+Gunakan bahasa Indonesia yang sederhana, jelas, objektif, dan profesional.
+
+Hindari:
+- Kalimat hiperbolis.
+- Bahasa terlalu dramatis.
+- Kalimat promosi berlebihan.
+- Pengulangan informasi.
+- Instruksi terlalu panjang.
+- Istilah teknis yang tidak diperlukan siswa.
+
+Gaya bahasa:
+- Siswa: sederhana, komunikatif, dan ramah.
+- Guru: informatif dan profesional.
+- Admin: formal, ringkas, dan jelas.
+
+Contoh:
+
+Hindari: "Selamat datang di dunia belajar yang luar biasa dan penuh petualangan!"
+
+Gunakan: "Selamat datang di LearnSpace. Mari pelajari materi Norma dalam Kehidupanku."
+
+Hindari: "Kamu hebat sekali! Teruslah menjadi bintang pembelajaran!"
+
+Gunakan: "Jawabanmu benar. Lanjutkan ke aktivitas berikutnya."
+
+Utamakan kejelasan informasi dan kemudahan penggunaan.
+
+## 21. Arsitektur Teknis
+
+Sebelum mengubah kode, audit project yang tersedia.
+
+Periksa:
+- Framework.
+- Bahasa pemrograman.
+- Struktur folder.
+- Routing.
+- Komponen.
+- Database.
+- Authentication.
+- Integrasi H5P.
+- Sistem desain.
+- Fitur yang sudah berjalan.
+
+Pertahankan stack project yang ada. Jika belum ada stack, rekomendasi:
+- React.
+- TypeScript.
+- Vite.
+- Tailwind CSS.
+- shadcn/ui.
+- Lucide.
+- Supabase.
+- PostgreSQL.
+- Supabase Auth.
+- Supabase Storage.
+
+Gunakan arsitektur modular seperti components, pages, layouts, hooks, services, lib, types, dan features.
+
+### Database
+
+Periksa tabel yang tersedia sebelum membuat tabel baru.
+
+Entitas yang mungkin diperlukan:
+- profiles.
+- courses.
+- learning_objectives.
+- modules.
+- activities.
+- h5p_contents.
+- enrollments.
+- progress.
+- attempts.
+- feedback.
+- reflections.
+- achievements.
+- guide_progress.
+- tutorial_sections.
+- practical_activities.
+- practical_responses.
+- question_bank.
+- drill_attempts.
+- game_levels.
+- game_sessions.
+- student_achievements.
+- summaries.
+- summary_progress.
+- chatbot_sessions.
+- chatbot_messages.
+- knowledge_sources.
+
+Gunakan tabel yang telah memiliki fungsi serupa. Jangan membuat duplikasi tanpa kebutuhan.
+
+### Keamanan
+
+Terapkan Row Level Security.
+
+- Siswa hanya dapat mengakses kursus yang diikuti dan data miliknya.
+- Guru hanya dapat mengelola kursus dan siswa sesuai kewenangannya.
+- Admin memiliki akses sesuai hak administrasi.
+- Pembatasan akses diterapkan di backend dan database.
+
+Jangan menyimpan API key atau credential rahasia di frontend.
+
+## 22. Stabilitas dan Penanganan Error
+
+Prioritas:
+1. Stabilitas sistem.
+2. Keandalan H5P.
+3. Pengalaman belajar.
+4. Kemudahan penggunaan.
+5. Aksesibilitas.
+6. Desain visual.
+7. Penambahan fitur.
+
+Setiap fitur perlu memiliki:
+- Loading.
+- Success.
+- Empty.
+- Error.
+- Retry.
+- Validation.
+- Persistence jika diperlukan.
+
+Gunakan error boundary. Kegagalan H5P, animasi, atau audio tidak boleh menyebabkan seluruh LMS berhenti.
+
+Jangan menampilkan TypeError, stack trace, undefined, atau raw API error kepada siswa.
+
+Simpan draft guru jika autosave tersedia. Jangan menghapus data yang belum berhasil disimpan.
+
+Contoh pesan:
+
+"Media belum dapat dibuka. Coba lagi atau hubungi gurumu."
+
+"Belum tersimpan. Periksa koneksi dan coba simpan kembali."
+
+## 23. Performa dan Aksesibilitas
+
+### Performa
+
+- Gunakan lazy loading untuk H5P.
+- Optimalkan gambar dan aset audio.
+- Optimalkan animasi.
+- Hindari request yang tidak diperlukan.
+- Gunakan caching sesuai kebutuhan.
+- Pastikan navigasi responsif.
+
+### Aksesibilitas
+
+- Gunakan HTML semantik.
+- Pastikan kontras memadai.
+- Sediakan alt text.
+- Sediakan caption atau transkrip untuk audio dan video.
+- Pastikan navigasi keyboard.
+- Tampilkan focus state.
+- Gunakan ikon bersama label teks.
+- Jangan menggunakan warna sebagai satu satunya indikator.
+- Pastikan tombol cukup besar.
+- Dukung `prefers-reduced-motion`.
+- Sediakan kontrol untuk mematikan suara.
+
+## 24. Pengujian dan Quality Assurance
+
+### Pengujian Fungsional
+
+Uji:
+- Login dan registrasi.
+- Hak akses siswa, guru, dan admin.
+- Beranda.
+- Onboarding.
+- Navigasi.
+- Kursus dan modul.
+- Tutorial.
+- Practical.
+- Drill.
+- Game.
+- Chatbot.
+- Rangkuman.
+- Assessment.
+- Upload dan preview H5P.
+- H5P player.
+- Penyimpanan progres.
+- Dashboard guru.
+- Empty state data siswa.
+- Animasi.
+- Sound effect.
+- Pengaturan suara.
+
+### Pengujian Kondisi Gagal
+
+Uji:
+- File H5P tidak valid.
+- File terlalu besar.
+- File rusak.
+- Upload gagal.
+- Database tidak tersedia.
+- Koneksi terputus.
+- Session kedaluwarsa.
+- Pengguna tidak memiliki izin.
+- Layanan AI tidak tersedia.
+- Dependency H5P tidak ditemukan.
+- Audio gagal dimuat.
+- Animasi gagal dijalankan.
+
+### Pengujian Tampilan
+
+Periksa pada ukuran:
+- 1440px.
+- 1280px.
+- 1024px.
+- 768px.
+- 390px.
+
+Pastikan:
+- Tidak ada teks terpotong.
+- Tidak ada tombol keluar dari area.
+- Tidak ada horizontal scroll yang tidak diperlukan.
+- Font konsisten.
+- Kartu memiliki dimensi seragam.
+- Jarak antarkomponen konsisten.
+- Animasi berjalan dengan baik.
+- Kontrol audio mudah ditemukan.
+- Tampilan responsif.
+
+### Pengujian Pengguna
+
+Uji bersama guru dan siswa kelas V SD untuk mengetahui:
+- Kemudahan navigasi.
+- Keterbacaan materi.
+- Kejelasan instruksi.
+- Kemudahan menggunakan H5P.
+- Kemudahan menggunakan chatbot.
+- Pemahaman terhadap umpan balik.
+- Kenyamanan menggunakan animasi dan suara.
+- Kemudahan menyelesaikan aktivitas.
+
+### Definition of Done
+
+Fitur dinyatakan selesai apabila:
+- Fungsi utama berjalan.
+- Loading dan error ditangani.
+- Validasi tersedia.
+- Data tersimpan dengan benar.
+- Fitur tetap dapat dibuka setelah refresh.
+- Tampilan responsif.
+- Hak akses berjalan.
+- Kondisi jaringan gagal ditangani.
+- Animasi dan suara tidak menghambat penggunaan.
+- Tersedia alternatif tanpa animasi atau suara.
+- Tidak merusak fitur lain.
+
+## 25. Tahapan Pengembangan
+
+### Tahap 1: Audit dan Fondasi
+
+- Periksa project.
+- Perbaiki struktur jika diperlukan.
+- Bangun navigasi dan sistem role.
+- Perbarui Beranda.
+- Buat panduan pengguna.
+- Bangun dashboard siswa dan guru.
+- Siapkan learning path dan progres.
+- Periksa data siswa dummy pada dashboard guru.
+
+### Tahap 2: Materi dan H5P
+
+- Bangun Tutorial.
+- Bangun Rangkuman.
+- Implementasikan H5P Management.
+- Implementasikan upload H5P.
+- Integrasikan player.
+- Tambahkan visual empat macam norma.
+- Uji preview dan penyimpanan.
+
+### Tahap 3: Aktivitas dan Asesmen
+
+- Bangun Practical.
+- Bangun Drill.
+- Bangun Game.
+- Bangun Assessment.
+- Integrasikan progres dan hasil aktivitas.
+
+### Tahap 4: Chatbot dan Monitoring
+
+- Bangun Chatbot Teman Belajar.
+- Siapkan sumber pengetahuan Bab 2.
+- Integrasikan AI jika layanan tersedia.
+- Sediakan fallback FAQ.
+- Bangun refleksi.
+- Bangun monitoring guru.
+
+### Tahap 5: Animasi, Audio, dan UI/UX
+
+- Terapkan animasi pada komponen yang membutuhkan.
+- Tambahkan sound effect.
+- Buat pengaturan audio.
+- Pastikan animasi dan audio tidak mengganggu pembelajaran.
+- Periksa konsistensi komponen.
+- Uji alur siswa dan guru.
+
+### Tahap 6: Quality Assurance
+
+- Uji seluruh fitur.
+- Perbaiki bug.
+- Periksa font.
+- Periksa ukuran kartu dan komponen.
+- Uji responsivitas.
+- Uji aksesibilitas.
+- Uji keamanan.
+- Uji kondisi kegagalan.
+- Pastikan materi sesuai Bab 2.
+
+## 26. Batasan Pengembangan MVP
+
+Jangan menambahkan fitur berikut apabila tidak menjadi kebutuhan utama:
+- Forum publik.
+- Chat publik antarsiswa.
+- AI general assistant di luar materi.
+- Live class.
+- Leaderboard publik.
+- Sertifikat otomatis.
+- Materi di luar Bab 2.
+
+Fokus pada pengalaman belajar digital yang terstruktur untuk materi Norma dalam Kehidupanku.
+
+## 27. Instruksi Akhir untuk AI Developer
+
+Sebelum menulis atau mengubah kode:
+
+1. Audit project yang tersedia.
+2. Identifikasi fitur yang sudah berjalan.
+3. Gunakan kembali komponen yang masih relevan.
+4. Periksa kebutuhan perubahan database.
+5. Pastikan tidak menghapus data pengguna nyata.
+6. Bersihkan data siswa dummy yang tidak diperlukan.
+7. Terapkan empty state ketika data siswa belum tersedia.
+8. Periksa penggunaan tanda hubung sebagai pemisah teks.
+9. Tambahkan empat ilustrasi norma pada materi.
+10. Implementasikan fitur secara modular.
+11. Uji setiap fitur setelah selesai.
+12. Periksa seluruh alur UI/UX dari sudut pandang siswa dan guru.
+
+Jangan hanya membuat mockup atau tampilan visual. Implementasikan fungsi sesuai kemampuan teknologi dan infrastruktur yang tersedia.
+
+Jangan membuat data dummy seolah olah merupakan data siswa nyata. Gunakan data contoh hanya untuk preview atau pengujian dengan penanda yang jelas.
+
+Jangan mengklaim integrasi, penyimpanan, AI, H5P, animasi, atau audio telah berhasil apabila belum diuji.
+
+### Hasil Akhir yang Diharapkan
+
+LearnSpace menjadi LMS pembelajaran Pendidikan Pancasila kelas V SD yang berfokus pada Bab 2, Norma dalam Kehidupanku, dengan enam fitur pembelajaran utama, integrasi H5P dari Lumi, dashboard siswa dan guru, visual pembelajaran empat macam norma, animasi, sound effect, serta alur UI/UX yang mudah dipahami.
+
+Prioritaskan kemudahan penggunaan, kejelasan materi, konsistensi desain, ketepatan informasi, dan kestabilan sistem.
